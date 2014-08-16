@@ -22,9 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="BBCNews" />
         <module name="Generic" />
+        <module name="Youtube" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BBCNews" target="1.7" />
+      <module name="Generic" target="1.7" />
+      <module name="Team1-Project" target="1.7" />
+      <module name="Youtube" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
