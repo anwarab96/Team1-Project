@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ali Express (China's Amazon)" parallel="tests">
+    <parameter name="url" value="http://www.aliexpress.com/"/>
+    <test  name= "test1">
+        <classes>
+            <class name="ali_express.TopSearch"/>
+        </classes>
+    </test>
+</suite>

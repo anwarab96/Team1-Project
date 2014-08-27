@@ -13,13 +13,14 @@ import org.testng.annotations.Test;
 public class Search extends CommonApi {
 
     @Test
-    public void Search() throws InterruptedException {
+    public void search() throws InterruptedException {
 
         System.out.print("Hello");
-        findIdInputValue("blq-search-q","politics");
-        sleep(30*1000);
-        driver.findElement(By.id("blq-search-btn")).submit();
-        sleep(30*1000);
+        findId_InputValue("blq-search-q","politics");
+        sleep(10);
+//        driver.findElement(By.id("blq-search-btn")).submit();
+        pressEnter("blq-search-btn");
+        sleep(10);
 
 
     }

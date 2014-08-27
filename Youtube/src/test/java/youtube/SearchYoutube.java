@@ -11,7 +11,8 @@ import org.testng.annotations.Test;
 public class SearchYoutube extends CommonApi {
 
     @Test
-    public void Search(){
+    public void search(){
+
 
     }
 }

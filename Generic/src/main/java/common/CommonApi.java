@@ -59,13 +59,28 @@ public class CommonApi {
         return elementList;
     }
 
-    public void findIdInputValue(String locator,String value){
-        driver.findElement(By.id(locator)).sendKeys(value);
+    public void findId_InputValue(String locator,String value){
+        if(driver.findElement(By.id(locator)).isDisplayed()){
+            driver.findElement(By.id(locator)).sendKeys(value);
+        }
+        else if(driver.findElement(By.cssSelector(locator)).isDisplayed()){
+            driver.findElement(By.cssSelector(locator)).sendKeys(value);
+        }
+        else {
+            return;
+        }
+
     }
 
     public void pressEnter(String locator){
-        driver.findElement(By.id(locator)).sendKeys(Keys.ENTER);
+        if(driver.findElement(By.id(locator)).isDisplayed()){
+            driver.findElement(By.id(locator)).sendKeys(Keys.ENTER);
+        }
+        else if(driver.findElement(By.cssSelector(locator)).isDisplayed()){
+            driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+        }
+        else {
+            return;
+        }
     }
-
-
 }

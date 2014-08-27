@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AliExpress/AliExpress.iml" filepath="$PROJECT_DIR$/AliExpress/AliExpress.iml" />
       <module fileurl="file://$PROJECT_DIR$/BBCNews/BBCNews.iml" filepath="$PROJECT_DIR$/BBCNews/BBCNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bloomberg/Bloomberg.iml" filepath="$PROJECT_DIR$/Bloomberg/Bloomberg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharacterArcade/CharacterArcade.iml" filepath="$PROJECT_DIR$/CharacterArcade/CharacterArcade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Team1-Project.iml" filepath="$PROJECT_DIR$/Team1-Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/Youtube/Youtube.iml" filepath="$PROJECT_DIR$/Youtube/Youtube.iml" />

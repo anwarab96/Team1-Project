@@ -12,6 +12,9 @@
         <module>Generic</module>
         <module>BBCNews</module>
         <module>Youtube</module>
+        <module>Bloomberg</module>
+        <module>CharacterArcade</module>
+        <module>AliExpress</module>
     </modules>
 
 
