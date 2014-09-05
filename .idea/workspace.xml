@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd46f894-6d03-4f8e-b4fc-5fd4972e16ad" name="Default" comment="Fixed some errors.&#10;Included BBC and Youtube Module.&#10;&#10;">
-      <change type="MOVED" beforePath="C:\Users\Abuhena\Documents\GitHub\Team1-Project\Bloomberg\src\test\resouces\BbTestRunner.xml" afterPath="$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" afterPath="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bloomberg/Bloomberg.iml" afterPath="$PROJECT_DIR$/Bloomberg/Bloomberg.iml" />
+    <list default="true" id="bd46f894-6d03-4f8e-b4fc-5fd4972e16ad" name="Default" comment="Uncommented">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Abuhena.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java" afterPath="$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Team1-Project.iws" />
@@ -139,11 +135,11 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="CommonApi.java" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="CommonApi.java" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.65096617" vertical-offset="158" max-vertical-offset="1972">
-                      <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+                    <state vertical-scroll-proportion="0.46618357" vertical-offset="158" max-vertical-offset="1972">
+                      <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
                       <folding />
                     </state>
                   </provider>
@@ -195,7 +191,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TopSearch.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="TopSearch.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.22584541" vertical-offset="0" max-vertical-offset="828">
@@ -217,8 +213,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="azad" />
         <option value="Azad" />
+        <option value="azad" />
       </list>
     </option>
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -248,8 +244,8 @@
         <option value="$PROJECT_DIR$/AliExpress/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" />
         <option value="$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" />
       </list>
     </option>
   </component>
@@ -1346,7 +1342,11 @@
       <created>1408058166121</created>
       <updated>1408058166121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Saucelabs">
+      <created>1409876936510</created>
+      <updated>1409876936510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1369,7 +1369,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16084194" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11675933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11675933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32608697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1396,7 +1396,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Maven dependencies - TestNG, Selenium &#10;Generic Module included." />
     <MESSAGE value="Fixed some errors.&#10;Included BBC and Youtube Module.&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors.&#10;Included BBC and Youtube Module.&#10;&#10;" />
+    <MESSAGE value="Added Saucelabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Saucelabs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1801,14 +1802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65096617" vertical-offset="158" max-vertical-offset="1972">
-          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24540682" vertical-offset="0" max-vertical-offset="762">
@@ -1821,6 +1814,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22584541" vertical-offset="0" max-vertical-offset="828">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46618357" vertical-offset="158" max-vertical-offset="1972">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding />
         </state>
       </provider>

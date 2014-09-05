@@ -41,9 +41,9 @@ public class CommonApi {
         else
         {
             driver = new FirefoxDriver();
-            driver.navigate().to(url);
+//            driver.navigate().to(url);
         }
-//        driver.navigate().to(url);
+        driver.navigate().to(url);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
