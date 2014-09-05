@@ -3,6 +3,7 @@
 
 <suite name="Bloomberg" parallel="tests">
     <parameter name="url" value="http://www.Bloomberg.com"/>
+    <parameter name="name" value="Bloomberg"/>
     <test  name= "test1">
         <classes>
             <class name="bloomberg.Finance"/>

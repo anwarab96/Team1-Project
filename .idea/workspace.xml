@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd46f894-6d03-4f8e-b4fc-5fd4972e16ad" name="Default" comment="Fixed a small error">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/Youtube.iml" afterPath="$PROJECT_DIR$/Youtube/Youtube.iml" />
+    <list default="true" id="bd46f894-6d03-4f8e-b4fc-5fd4972e16ad" name="Default" comment="Updated BBC News for the new search results.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" afterPath="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" afterPath="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml" afterPath="$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CharacterArcade/src/test/resources/CharacterArcadeTestRunner.xml" afterPath="$PROJECT_DIR$/CharacterArcade/src/test/resources/CharacterArcadeTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java" afterPath="$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,11 +46,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="YoutubeTestRunner.xml" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="YoutubeTestRunner.xml" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.2007874" vertical-offset="0" max-vertical-offset="762">
-                      <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+                      <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -61,11 +66,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="BBCNewsTestRunner.xml" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="BBCNewsTestRunner.xml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-                      <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                    <state vertical-scroll-proportion="0.44619423" vertical-offset="0" max-vertical-offset="762">
+                      <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -94,8 +99,8 @@
               <file leaf-file-name="BbTestRunner.xml" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-                      <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+                      <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
                       <folding />
                     </state>
                   </provider>
@@ -104,8 +109,8 @@
               <file leaf-file-name="CharacterArcadeTestRunner.xml" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/CharacterArcade/src/test/resources/CharacterArcadeTestRunner.xml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-                      <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+                      <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
                       <folding />
                     </state>
                   </provider>
@@ -124,8 +129,8 @@
               <file leaf-file-name="AliExpressTestRunner.xml" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-                      <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+                      <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
                       <folding />
                     </state>
                   </provider>
@@ -135,24 +140,24 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="CommonApi.java" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="CommonApi.java" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.5543478" vertical-offset="0" max-vertical-offset="2006">
-                      <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="2057">
+                      <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
                       <folding>
-                        <element signature="e#2507#2508#0" expanded="true" />
-                        <element signature="e#2549#2550#0" expanded="true" />
+                        <element signature="e#2675#2676#0" expanded="true" />
+                        <element signature="e#2717#2718#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Search.java" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="Search.java" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-                      <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+                    <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="828">
+                      <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -194,11 +199,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TopSearch.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="TopSearch.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41062802" vertical-offset="0" max-vertical-offset="828">
-                  <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.2874396" vertical-offset="0" max-vertical-offset="828">
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -237,19 +242,19 @@
         <option value="$PROJECT_DIR$/Bloomberg/src/test/resouces/BbTestRunner.xml" />
         <option value="$PROJECT_DIR$/Bloomberg/src/test/java/bloomberg/Finance.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtube/SearchYoutube.java" />
-        <option value="$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java" />
         <option value="$PROJECT_DIR$/CharacterArcade/pom.xml" />
         <option value="$PROJECT_DIR$/CharacterArcade/src/test/java/character_arcade/Login.java" />
         <option value="$PROJECT_DIR$/Bloomberg/pom.xml" />
         <option value="$PROJECT_DIR$/AliExpress/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" />
-        <option value="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
-        <option value="$PROJECT_DIR$/CharacterArcade/src/test/resources/CharacterArcadeTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml" />
         <option value="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml" />
+        <option value="$PROJECT_DIR$/CharacterArcade/src/test/resources/CharacterArcadeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java" />
+        <option value="$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java" />
       </list>
     </option>
   </component>
@@ -929,12 +934,12 @@
       <recent name="C:\Users\Abuhena\Documents\GitHub\Team1-Project\Bloomberg\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/AliExpress/src/test/resources/AliExpressTestRunner.xml">
-    <configuration default="false" name="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Youtube" />
+  <component name="RunManager" selected="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (5)">
+    <configuration default="false" name="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBCNews" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -959,11 +964,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Youtube" />
+    <configuration default="false" name="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBCNews" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -988,11 +993,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Youtube" />
+    <configuration default="false" name="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBCNews" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -1017,11 +1022,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Youtube" />
+    <configuration default="false" name="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBCNews" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -1046,11 +1051,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AliExpress" />
+    <configuration default="false" name="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml (5)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBCNews" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -1305,19 +1310,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.YoutubeHome" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml (2)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml (3)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml (4)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (2)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (3)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (4)" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (5)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/AliExpress/src/test/resources/AliExpressTestRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml (4)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml (3)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/Youtube/src/test/resources/YoutubeTestRunner.xml (2)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (5)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (4)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (3)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Abuhena/Documents/GitHub/Team1-Project/BBCNews/src/test/resources/BBCNewsTestRunner.xml (2)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1355,7 +1360,11 @@
       <created>1409877066245</created>
       <updated>1409877066245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed Saucelabs">
+      <created>1409880559200</created>
+      <updated>1409880559201</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1369,17 +1378,17 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32608697" sideWeight="0.5002749" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32608697" sideWeight="0.40470108" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49972513" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873425" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.4992335" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841614" sideWeight="0.4997445" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16084194" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10603654" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11675933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32608697" sideWeight="0.49972513" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11675933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32608697" sideWeight="0.59529895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1407,11 +1416,13 @@
     <MESSAGE value="Fixed some errors.&#10;Included BBC and Youtube Module.&#10;&#10;" />
     <MESSAGE value="Added Saucelabs" />
     <MESSAGE value="Fixed a small error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a small error" />
+    <MESSAGE value="Fixed Saucelabs" />
+    <MESSAGE value="Updated BBC News for the new search results." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated BBC News for the new search results." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -1476,8 +1487,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1428">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1527,8 +1538,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1428">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1578,8 +1589,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1275">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1613,8 +1624,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="782">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1640,8 +1651,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="782">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1667,8 +1678,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="782">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1782,14 +1793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="801" max-vertical-offset="2006">
@@ -1798,61 +1801,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bloomberg/src/test/resources/BbTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CharacterArcade/src/test/resources/CharacterArcadeTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/AliExpress/src/test/resources/AliExpressTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2007874" vertical-offset="0" max-vertical-offset="762">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5543478" vertical-offset="0" max-vertical-offset="2006">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="2057">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBCNews/src/test/java/bbc/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="828">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AliExpress/src/test/java/ali_express/TopSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41062802" vertical-offset="0" max-vertical-offset="828">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.2874396" vertical-offset="0" max-vertical-offset="828">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBCNews/src/test/resources/BBCNewsTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44619423" vertical-offset="0" max-vertical-offset="762">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

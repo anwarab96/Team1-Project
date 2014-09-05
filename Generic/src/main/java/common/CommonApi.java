@@ -24,7 +24,7 @@ public class CommonApi {
 
     public WebDriver driver = null;
 
-    @Parameters({"url", "useSauceLabs","username", "key", "os", "browser", "browserVersion"})
+    @Parameters({"url", "useSauceLabs","username", "key", "os", "browser", "browserVersion", "name"})
     @BeforeMethod
     public void setup(@Optional("http://www.google.com") String url,
                       @Optional("false") boolean useSauceLabs,
@@ -32,11 +32,12 @@ public class CommonApi {
                       @Optional("f4fbe71d-d579-4a04-8040-101c386892fb") String key,
                       @Optional("Windows 8.1") String os,
                       @Optional("firefox") String browser,
-                      @Optional("31.0") String browserVersion) throws Exception {
+                      @Optional("31.0") String browserVersion,
+                      @Optional("Test") String name) throws Exception {
 
         if(useSauceLabs==true){
             //Run in saucelabs
-            getSauceLabDriver(os, browser, browserVersion, username, key);
+            getSauceLabDriver(os, browser, browserVersion, username, key, name);
         }
         else
         {
@@ -54,12 +55,14 @@ public class CommonApi {
                                        String browser,
                                        String browserVersion,
                                        String username,
-                                       String key)throws Exception
+                                       String key,
+                                       String name)throws Exception
     {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName(browser);
         capabilities.setCapability("platform", os);
         capabilities.setVersion(browserVersion);
+        capabilities.setCapability("name",name);
         // Create the connection to Sauce Labs to run the tests
         this.driver = new RemoteWebDriver(
                 new URL("http://" + username + ":" + key + "@ondemand.saucelabs.com:80/wd/hub"),

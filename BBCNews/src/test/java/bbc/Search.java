@@ -22,16 +22,17 @@ public class Search extends CommonApi {
         System.out.print("Hello");
         findId_InputValue("blq-search-q","politics");
         sleep(2);
-//        driver.findElement(By.id("blq-search-btn")).submit();
+
         pressEnter("blq-search-btn");
         sleep(2);
 
+        driver.findElement(By.xpath("//*[@id=\"orb-modules\"]/section[2]/header/ol/li[2]/a")).click();
         LinkedList<String> topResult = new LinkedList<>();
 
-        List<WebElement> result = getWebElement(".DateList li");
+        List<WebElement> result = getWebElement("#orb-modules > section.search-content > ol li");
 
         for (int i=0; i<result.size(); i++){
-            String headline = result.get(i).findElement(By.tagName("a")).getText();
+            String headline = result.get(i).findElement(By.tagName("h1")).getText();
             topResult.add(headline);
             System.out.println(topResult.get(i));
         }
