@@ -3,6 +3,8 @@ package ali_express;
 import common.CommonApi;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.util.LinkedList;
@@ -13,18 +15,16 @@ import java.util.List;
  */
 public class TopSearch extends CommonApi{
 
+
     @Test
     public void topResult() throws InterruptedException {
-        findId_InputValue("search-key","Toys");
-        sleep(2);
-//        driver.findElement(By.id("blq-search-btn")).submit();
+        sleep(1);
+        driver.findElement(By.cssSelector("#newuser-popup-wrapper > .user-action-mod > .user-action-btn > .go-contiune-btn")).click();
+        findId_InputValue("search-key", "Toys");
         driver.findElement(By.id("search-cate")).click();
-        sleep(2);
         driver.findElement(By.cssSelector(".sc-box li:nth-child(5)")).click();
-        sleep(2);
         driver.findElement(By.cssSelector("input.search-button")).click();
-        sleep(2);
         pressEnter("linkFreeShip");
-        sleep(10);
+        sleep(3);
     }
 }

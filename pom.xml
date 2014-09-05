@@ -58,4 +58,56 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>all</id>
+            <modules>
+                <module>Generic</module>
+                <module>AliExpress</module>
+                <module>BBCNews</module>
+                <module>Bloomberg</module>
+                <module>Youtube</module>
+                <module>CharacterArcade</module>
+            </modules>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>aliexpress-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>AliExpress</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>bbcnews-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>BBCNews</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>bloomberg-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>Bloomberg</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>youtube-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>Youtube</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>characterarcade-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>CharacterArcade</module>
+            </modules>
+        </profile>
+    </profiles>
 </project>
