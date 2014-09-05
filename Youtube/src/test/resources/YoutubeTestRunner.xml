@@ -3,6 +3,7 @@
 
 <suite name="Youtube" parallel="tests">
     <parameter name="url" value="http://www.youtube.com"/>
+    <parameter name="useSauceLabs" value="true"/>
     <test  name= "test1">
         <classes>
             <class name="youtube.SearchYoutube"/>
