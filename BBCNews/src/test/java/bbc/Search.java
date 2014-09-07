@@ -19,7 +19,7 @@ public class Search extends CommonApi {
     @Test
     public void search() throws InterruptedException {
 
-        System.out.print("Hello");
+        System.out.print("Top Headlines\n");
         findId_InputValue("blq-search-q","politics");
         sleep(2);
 
@@ -29,7 +29,7 @@ public class Search extends CommonApi {
         driver.findElement(By.xpath("//*[@id=\"orb-modules\"]/section[2]/header/ol/li[2]/a")).click();
         LinkedList<String> topResult = new LinkedList<>();
 
-        List<WebElement> result = getWebElement("#orb-modules > section.search-content > ol li");
+        List<WebElement> result = getCSSWebElement("#orb-modules > section.search-content > ol li");
 
         for (int i=0; i<result.size(); i++){
             String headline = result.get(i).findElement(By.tagName("h1")).getText();

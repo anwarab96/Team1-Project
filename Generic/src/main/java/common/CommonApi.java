@@ -3,6 +3,7 @@ package common;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
@@ -91,35 +92,82 @@ public class CommonApi {
         driver.navigate().forward();
     }
 
-    public List<WebElement> getWebElement (String locator){
+    public List<WebElement> getCSSWebElement (String locator){
         List<WebElement> elementList = new LinkedList<>();
         elementList = driver.findElements(By.cssSelector(locator));
         return elementList;
     }
 
-    public void findId_InputValue(String locator,String value){
-        if(driver.findElement(By.id(locator)).isDisplayed()){
-            driver.findElement(By.id(locator)).sendKeys(value);
-        }
-        else if(driver.findElement(By.cssSelector(locator)).isDisplayed()){
-            driver.findElement(By.cssSelector(locator)).sendKeys(value);
-        }
-        else {
-            return;
-        }
-
+    public List<WebElement> getXWebElement (String locator){
+        List<WebElement> elementList = new LinkedList<>();
+        elementList = driver.findElements(By.xpath(locator));
+        return elementList;
     }
 
+
+
+    public void search(String value, String locator){
+        findId_InputValue(locator,value);
+        findId_InputValue(locator,Keys.ENTER);
+    }
+
+    private void findId_InputValue(String locator, Keys keys) {
+        switch (locatorType(locator)){
+            case "id":
+                driver.findElement(By.id(locator)).sendKeys(keys);
+                break;
+            case "css":
+                driver.findElement(By.cssSelector(locator)).sendKeys(keys);
+                break;
+            case "xpath":
+                driver.findElement(By.xpath(locator)).sendKeys(keys);
+                break;
+        }
+    }
+
+    public void findId_InputValue(String locator,String value){
+        switch (locatorType(locator)){
+            case "id":
+                driver.findElement(By.id(locator)).sendKeys(value);
+                break;
+            case "css":
+                driver.findElement(By.cssSelector(locator)).sendKeys(value);
+                break;
+            case "xpath":
+                driver.findElement(By.xpath(locator)).sendKeys(value);
+                break;
+        }
+    }
+
+
     public void pressEnter(String locator){
-        if(driver.findElement(By.id(locator)).isDisplayed()){
-            driver.findElement(By.id(locator)).sendKeys(Keys.ENTER);
+        switch (locatorType(locator)){
+            case "id":
+                driver.findElement(By.id(locator)).sendKeys(Keys.ENTER);
+                break;
+            case "css":
+                driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+                break;
+            case "xpath":
+                driver.findElement(By.xpath(locator)).sendKeys(Keys.ENTER);
+                break;
         }
-        else if(driver.findElement(By.cssSelector(locator)).isDisplayed()){
-            driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+    }
+
+    public String locatorType (String locator){
+        if(driver.findElement(By.id(locator)).isEnabled()){
+            System.out.println("locator:" + locator + "id");
+            return "id";
         }
-        else {
-            return;
+        else if(driver.findElement(By.cssSelector(locator)).isEnabled()){
+            System.out.println("locator:" + locator + "css");
+            return "css";
         }
+        else if(driver.findElement(By.xpath(locator)).isEnabled()){
+            System.out.println("locator:" + locator + "xpath");
+            return "xpath";
+        }
+        return locator;
     }
 
     //Handle Alerts and Pop-ups
@@ -131,5 +179,28 @@ public class CommonApi {
     public void cancelAlert(){
         Alert alert = driver.switchTo().alert();
         alert.dismiss();
+    }
+
+    //mouse hover
+    public void mouseHover(String locator){
+        WebElement element = driver.findElement(By.cssSelector(locator));
+        Actions build = new Actions(driver);
+        Actions hover = build.moveToElement(element);
+    }
+
+    //Countdown
+    public void countdown(int seconds) throws InterruptedException {
+        System.out.print("\n");
+        for(int i=seconds; i>=0; i--){
+            sleep(1);
+            System.out.print(i + " ");
+        }
+    }
+
+    public void clickByCss(String locator){
+        driver.findElement(By.cssSelector(locator)).click();
+    }
+    public void clickByXpath(String locator){
+        driver.findElement(By.xpath(locator)).click();
     }
 }

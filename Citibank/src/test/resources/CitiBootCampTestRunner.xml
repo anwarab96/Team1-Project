@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CitiBank" parallel="tests">
+    <parameter name="url" value="http://www.citibank.com"/>
+    <parameter name="name" value="CitiBank"/>
+    <test name="bootcamp">
+        <classes>
+            <class name="citi.ContactUs"/>
+        </classes>
+    </test>
+</suite>

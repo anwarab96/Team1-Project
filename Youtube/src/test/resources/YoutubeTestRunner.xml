@@ -3,7 +3,7 @@
 
 <suite name="Youtube" parallel="tests">
     <parameter name="url" value="http://www.youtube.com"/>
-    <parameter name="useSauceLabs" value="true"/>
+    <parameter name="useSauceLabs" value="false"/>
     <parameter name="name" value="Youtube"/>
     <test  name= "test1">
         <classes>

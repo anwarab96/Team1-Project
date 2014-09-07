@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook" parallel="tests">
+    <parameter name="url" value="http://www.facebook.com"/>
+    <parameter name="name" value="Cnn"/>
+    <parameter name="username" value="username@gmail.com"/>
+    <parameter name="password" value="password"/>
+    <test name="bootcamp">
+        <classes>
+            <class name="facebook.Homepage"/>
+        </classes>
+    </test>
+</suite>

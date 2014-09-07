@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AliExpress/AliExpress.iml" filepath="$PROJECT_DIR$/AliExpress/AliExpress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/BBCNews/BBCNews.iml" filepath="$PROJECT_DIR$/BBCNews/BBCNews.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bloomberg/Bloomberg.iml" filepath="$PROJECT_DIR$/Bloomberg/Bloomberg.iml" />
       <module fileurl="file://$PROJECT_DIR$/CharacterArcade/CharacterArcade.iml" filepath="$PROJECT_DIR$/CharacterArcade/CharacterArcade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Citibank/Citibank.iml" filepath="$PROJECT_DIR$/Citibank/Citibank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cnn/Cnn.iml" filepath="$PROJECT_DIR$/Cnn/Cnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facebook/Facebook.iml" filepath="$PROJECT_DIR$/Facebook/Facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MetLife/MetLife.iml" filepath="$PROJECT_DIR$/MetLife/MetLife.iml" />
       <module fileurl="file://$PROJECT_DIR$/Team1-Project.iml" filepath="$PROJECT_DIR$/Team1-Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/Youtube/Youtube.iml" filepath="$PROJECT_DIR$/Youtube/Youtube.iml" />
     </modules>

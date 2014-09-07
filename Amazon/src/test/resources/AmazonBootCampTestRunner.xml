@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon" parallel="tests">
+    <parameter name="url" value="http://www.amazon.com"/>
+    <parameter name="name" value="Amazon"/>
+    <test name="bootcamp">
+        <classes>
+            <class name="amazon.Purchase"/>
+        </classes>
+    </test>
+</suite>

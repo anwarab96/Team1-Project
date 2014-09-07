@@ -2,13 +2,7 @@ package ali_express;
 
 import common.CommonApi;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Created by Abuhena on 8/27/2014.

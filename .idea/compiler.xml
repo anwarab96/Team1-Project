@@ -23,19 +23,29 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="AliExpress" />
+        <module name="Amazon" />
         <module name="BBCNews" />
         <module name="Bloomberg" />
         <module name="CharacterArcade" />
+        <module name="Citibank" />
+        <module name="Cnn" />
+        <module name="Facebook" />
         <module name="Generic" />
+        <module name="MetLife" />
         <module name="Youtube" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AliExpress" target="1.7" />
+      <module name="Amazon" target="1.7" />
       <module name="BBCNews" target="1.7" />
       <module name="Bloomberg" target="1.7" />
       <module name="CharacterArcade" target="1.7" />
+      <module name="Citibank" target="1.7" />
+      <module name="Cnn" target="1.7" />
+      <module name="Facebook" target="1.7" />
       <module name="Generic" target="1.7" />
+      <module name="MetLife" target="1.7" />
       <module name="Team1-Project" target="1.7" />
       <module name="Youtube" target="1.7" />
     </bytecodeTargetLevel>

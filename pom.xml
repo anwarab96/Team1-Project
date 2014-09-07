@@ -15,6 +15,11 @@
         <module>Bloomberg</module>
         <module>CharacterArcade</module>
         <module>AliExpress</module>
+        <module>Amazon</module>
+        <module>Facebook</module>
+        <module>Cnn</module>
+        <module>Citibank</module>
+        <module>MetLife</module>
     </modules>
 
 
