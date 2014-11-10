@@ -17,7 +17,7 @@ public class TVPrograms extends CommonApi {
         String popupWindow = driver.getWindowHandle();
         driver.switchTo().window(popupWindow);
         clickByCss("div.overlay_close");
-        countdown(4);
+        countdown(5);
     }
 
     @Test

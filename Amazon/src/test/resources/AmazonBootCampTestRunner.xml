@@ -6,7 +6,7 @@
     <parameter name="name" value="Amazon"/>
     <test name="bootcamp">
         <classes>
-            <class name="amazon.Purchase"/>
+            <!--<class name="amazon.Purchase"/>-->
         </classes>
     </test>
 </suite>
